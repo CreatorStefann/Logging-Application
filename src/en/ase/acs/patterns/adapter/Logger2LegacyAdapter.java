@@ -1,7 +1,7 @@
 package en.ase.acs.patterns.adapter;
 
 import en.ase.acs.patterns.adapter.abstracts.ILegacyLogger;
-import en.ase.acs.patterns.decorator.logger.ILogger;
+import en.ase.acs.patterns.decorator.interfaces.ILogger;
 
 public class Logger2LegacyAdapter implements ILegacyLogger {
     private final ILogger reference;

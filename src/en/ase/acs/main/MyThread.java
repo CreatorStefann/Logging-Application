@@ -3,6 +3,10 @@ package en.ase.acs.main;
 import en.ase.acs.patterns.adapter.Legacy2LoggerAdapter;
 import en.ase.acs.patterns.adapter.Logger2LegacyAdapter;
 import en.ase.acs.patterns.adapter.concretes.LegacyLogger;
+import en.ase.acs.patterns.decorator.LevelDecorator;
+import en.ase.acs.patterns.decorator.ThreadIdDecorator;
+import en.ase.acs.patterns.decorator.TimestampDecorator;
+import en.ase.acs.patterns.decorator.interfaces.ILogger;
 import en.ase.acs.patterns.decorator.logger.*;
 
 import java.util.Scanner;

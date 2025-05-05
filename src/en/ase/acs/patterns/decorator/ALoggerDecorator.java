@@ -1,4 +1,6 @@
-package en.ase.acs.patterns.decorator.logger;
+package en.ase.acs.patterns.decorator;
+
+import en.ase.acs.patterns.decorator.interfaces.ILogger;
 
 public abstract class ALoggerDecorator implements ILogger {
     protected ILogger reference;
